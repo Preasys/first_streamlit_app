@@ -63,7 +63,7 @@ streamlit.text(my_data_row)
 
 streamlit.dataframe(my_data_row)
 
-
+my_data_rows = my_cur.fetchall()
 streamlit.dataframe(my_data_rows)
 
 
