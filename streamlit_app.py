@@ -75,6 +75,7 @@ streamlit.text("Thanks for adding "+str(fruits_selected_2))
 
 
 
+my_cur.execute("INSERT INTO fruit_load_list VALUES ('from_streamlit')")
 
 
 
