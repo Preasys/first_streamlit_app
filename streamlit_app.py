@@ -67,9 +67,11 @@ my_data_rows = my_cur.fetchall()
 streamlit.dataframe(my_data_rows)
 
 
+streamlit.text("")
 
+fruits_selected_2 = streamlit.multiselect("What fruit would you like to add? ",list(my_data_row))
 
-
+streamlit.text("Thanks for adding "+fruits_selected_2)
 
 
 
