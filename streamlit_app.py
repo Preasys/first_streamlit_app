@@ -69,7 +69,7 @@ streamlit.dataframe(my_data_rows)
 
 streamlit.text("")
 
-fruits_selected_2 = streamlit.multiselect("What fruit would you like to add? ",list(my_data_row))
+fruits_selected_2 = streamlit.multiselect("What fruit would you like to add? ",list(my_data_rows))
 
 streamlit.text("Thanks for adding "+str(fruits_selected_2))
 
